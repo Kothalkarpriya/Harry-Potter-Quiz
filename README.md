@@ -10,7 +10,7 @@ film series.
 
 I used Jvascript and Repl.it Platform to create it.
 You can try it Once.
-https://replit.com/@PriyaKothalkar/quiz#index.js
+https://replit.com/@PriyaKothalkar/Harry-Potter-Quiz?embed=1&output=1#index.js
 
 
 <hr>
