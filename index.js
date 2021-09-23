@@ -68,9 +68,7 @@ function quiz(question,answer){
     console.log('You are wrong!');
     console.log('Your Score: '+score);
   }
-
 }
-
 
 function result(score){
   console.log('');
