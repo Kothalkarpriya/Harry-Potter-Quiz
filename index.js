@@ -73,6 +73,7 @@ function quiz(question,answer){
 
 
 function result(score){
+  console.log('');
   console.log('FInal Score: '+score);
    if(score > 7){
     console.log(userInput+', You are Brilliant! You Have a great knowledge of Harry Potter Film series! Congratulations! ');
