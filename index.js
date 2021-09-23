@@ -36,10 +36,12 @@ var i = 1;
 console.log("Let's know How much you know about Harry Potter.");
 console.log('Note: Please use First letter in Capital');
 
+console.log('');
+var userInput = readLineSync.question('What is your name? ');
+console.log('Welcome '+ userInput + '!');
 function introduction(){
   //Greetings!
-  var userInput = readLineSync.question('What is your name? ');
-  console.log('Welcome '+ userInput + '!');
+  console.log('');
   // Know if the user knows Harry Potter
   var first = readLineSync.question("Do you know Harry Potter? ");
   var answer = "Yes";
@@ -69,15 +71,17 @@ function quiz(question,answer){
 
 }
 
+
 function result(score){
+  console.log('FInal Score: '+score);
    if(score > 7){
-    console.log('You are Brilliant! You Have a great knowledge of Harry Potter Film series! Congratulations! ');
+    console.log(userInput+', You are Brilliant! You Have a great knowledge of Harry Potter Film series! Congratulations! ');
   }
   if(7< score > 4){
-    console.log('You have played very well !');
+    console.log(userInput+', You have played very well !' );
   }
   else{
-    console.log('Well Played!');
+    console.log(userInput+', Well Played!');
   }
 
 }
